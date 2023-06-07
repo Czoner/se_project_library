@@ -165,6 +165,10 @@
   text-decoration: none;
 }
 
+.evemts__more:hover {
+  color: #1f69c9;
+}
+
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
