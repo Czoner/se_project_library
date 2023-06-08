@@ -16,6 +16,7 @@
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .nav {
@@ -61,7 +62,7 @@
 }
 
 .header__image {
-  z-index: 1;
+  z-index: -1;
   position: absolute;
   max-width: 636px;
   right: 20px;
@@ -202,11 +203,15 @@
 .person_name_cannon {
   bottom: 18px;
   right: 216px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .person_name_mitchell {
   left: 142px;
   bottom: 82px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .person_name_tarter {
